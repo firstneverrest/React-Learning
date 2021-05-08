@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.useStateComponent,
+.useEffectComponent,
+.useMemoComponent {
+  margin: 5rem auto;
+  width: 50rem;
+  height: 50rem;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  color: #fff;
+  background-color: #38a656;
+  outline: none;
+  padding: 1rem;
+  font-family: "Kanit", sans-serif;
+  border: none;
+  cursor: pointer;
+}
