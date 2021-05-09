@@ -102,6 +102,7 @@ TransitionGroup manages a set of transition components (Transition and CSSTransi
 
 ```javascript
 import {CSSTransition, TransitionGroup} from "react-transition-group/CSSTransition";
+...
   <TransitionGroup className="todo-list">
     {items.map(({ id, text }) => (
       <CSSTransition

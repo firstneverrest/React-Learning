@@ -19,6 +19,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
 // create central data store which receive reducer function as a parameter
 const store = redux.createStore(counterReducer);
 
+// component
 const counterSubscriber = () => {
   // get latest state
   const latestState = store.getState();
