@@ -71,4 +71,4 @@ React Router is a collection of navigational components that compose declarative
         ```
         if isEntering is true, Prompt will show up as a alert window and message define the message in the Prompt.
     * set entering to false when click submit button
-10. 
+10. useMatchRoute() - This is a hook for getting route which use to create dynamic route. So, you don't need to manually edit the path when the first route is changed. 

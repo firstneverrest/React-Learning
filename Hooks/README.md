@@ -31,7 +31,7 @@ useMemo do is comparing the previous value with the new value. But there is a pr
 -  useLayoutEffect - have the same signature with useEffect,
     before we will do before browser paints the DOM
     really happened when state is changed
-- useDebugValue - can be used to display a label for custom hooks in React DevTools.
+- useDebugValue - can be used to display a label for custom hooks in React DevTools which make you debug easier
 
 ## Custom Hook
 Custom Hook allows you to build your own hook which can use single React Hook or combine many React Hooks to create custom hook. The custom hook is a JavaScript function whose name starts with "use" like the other React Hooks.
